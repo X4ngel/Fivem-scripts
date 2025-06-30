@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.hud {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /* pienempi väli */
+}
+
+.hud-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.65); /* musta tausta, 65% näkyvä */
+    padding: 8px 14px;
+    border-radius: 6px;
+    width: 160px; /* vähän kapeampi */
+}
+
+.text-content {
+    text-align: left;
+    color: white;
+}
+
+.value {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.icon {
+    font-size: 20px;
+    color: white;
+    margin-left: 8px;
+}
